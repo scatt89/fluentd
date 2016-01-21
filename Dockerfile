@@ -1,5 +1,7 @@
 FROM fluent/fluentd:latest
+
 MAINTAINER Marrarichy Da Silva Garcia <dasilvagarciam@gmail.com>
+
 USER ubuntu
 WORKDIR /home/ubuntu
 ENV PATH /home/ubuntu/ruby/bin:$PATH
