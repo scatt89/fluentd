@@ -2,7 +2,7 @@ FROM fluent/fluentd:latest
 
 MAINTAINER Marrarichy Da Silva Garcia <dasilvagarciam@gmail.com>
 
-USER ubuntu
+#USER ubuntu
 WORKDIR /home/ubuntu
 ENV PATH /home/ubuntu/ruby/bin:$PATH
 RUN gem install fluent-plugin-secure-forward
