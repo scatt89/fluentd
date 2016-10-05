@@ -1,4 +1,7 @@
 # fluentd
+
+[![](https://images.microbadger.com/badges/image/scatt89/fluentd.svg)](https://microbadger.com/images/scatt89/fluentd "Get your own image badge on microbadger.com")
+
 A Fluentd Docker container customized for send Docker logs to elasticsearch
 
 Default configurations 
